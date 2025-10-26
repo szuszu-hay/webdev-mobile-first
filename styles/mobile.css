@@ -14,6 +14,9 @@ footer {
 }
 
 #logo {
+    display:flex;
+    justify-content: space-between;
+    padding:5px;
     text-align: center;
 }
 
@@ -26,6 +29,11 @@ header h1 {
 header h1 a {
     color: #ffffff;
     text-decoration: none;
+}
+
+nav{
+  overflow: hidden;
+  transition: height 0.5s;
 }
 
 nav ul {
@@ -64,7 +72,7 @@ footer {
 }
 
 form > div {
-    margin: 15px 0;
+  margin: 15px 0;
 }
 
 label {
@@ -81,8 +89,15 @@ textarea {
 }
 
 input[type="submit"] {
-    margin: 10px auto;
-    text-align: center;
-    width: 100%;
-    padding: 15px;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.burger > .line{
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
 }

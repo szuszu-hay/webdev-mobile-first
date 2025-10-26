@@ -75,6 +75,7 @@ tr:nth-child(odd) {
 }
 /* Form Styling Needs Adding */
 
+
 form {
   width: 50%;
   margin: auto;
@@ -96,4 +97,13 @@ label {
 input[type="submit"] {
   width: auto;
   margin: 0;
+}
+
+.burger {
+  display: none;
+}
+
+nav {
+/* for burger menu */
+  overflow: auto; 
 }
